@@ -1,15 +1,20 @@
-![easyengine](http://rtcamp.com/wp-content/uploads/2013/08/easyengine-logo-858x232px.png "easyengine")
+<img src="https://d3qt5vpr7p9rgn.cloudfront.net/wp-content/uploads/2013/08/easy-engine-logo-2-RS1.png" alt="EasyEngine Logo" align="right" />
 
-## Introduction
+[![Travis Build Status](https://travis-ci.org/rtCamp/easyengine.svg "Travis Build Status")] (https://travis-ci.org/rtCamp/easyengine)
 
-easyengine (ee) is a linux shell-script collection, which makes it easy to manage your wordpress-nginx sites on a debian/ubuntu server.
+easyengine (ee) is a linux shell-script collection, which makes it easy to manage your wordpress sites running on nginx web-server.
+
+**EasyEngine currently supports:**
+
+- Ubuntu 12.04, 12.10, 13.10 & 14.04
+- Debian 6, 7
 
 ## Quick Start
 
 ```bash
-curl -sL rt.cx/ee | sudo bash                    # install easyengine
-ee system install                                # install nginx, php, mysql, postfix 
-ee site create example.com --wp                  # create example.com and install wordpress on it
+curl -sL rt.cx/ee | sudo bash         # install easyengine
+ee system install                     # install nginx, php, mysql, postfix 
+ee site create example.com --wp       # create example.com and install wordpress on it
 ```
 
 ## Upgrading 
